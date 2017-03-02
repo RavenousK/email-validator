@@ -9,7 +9,7 @@ public static void main(String[] args) {
  System.out.println(test.validateEmail(email3));
 }
 public String validateEmail(String email){
- if ((email.contains("@"))||(email.contains("."))) return "This is an email";
+ if ((email.contains("@"))||(email.contains("."))||(email.contains("yahoo"))||(email.contains("google"))) return "This is an email";
  else return "This is not an email";
 }
 }
