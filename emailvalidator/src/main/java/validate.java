@@ -10,6 +10,6 @@ public static void main(String[] args) {
 }
 public String validateEmail(String email){
  if ((email.contains("@"))||(email.contains("."))||(email.contains("yahoo"))||(email.contains("google"))) return "This is an email";
- else return "This is not an email";
+ else return "This is sadly not an email";
 }
 }
